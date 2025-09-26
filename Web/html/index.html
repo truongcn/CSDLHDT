@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="vi">
+
+<head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width,initial-scale=1" />
+    <title>Hệ thống quản lý Bệnh viện - FE</title>
+    <link rel="stylesheet" type="text/css" href="../css/index.css">
+    <link rel="stylesheet" type="text/css" href="../css/navibar.css">
+</head>
+
+<body>
+    <header>
+        <h1>🏥 Bệnh viện Ánh Sáng — Quản lý</h1>
+        <div id="auth-area">
+            <button id="btn-login" onclick="showPage('login')">Đăng nhập</button>
+            <button id="btn-register" onclick="showPage('register')">Đăng ký</button>
+            <span id="user-info" style="display:none;">
+                <span id="username"></span>
+                <button onclick="logout()">Đăng xuất</button>
+            </span>
+        </div>
+    </header>
+
+    <nav id="main-nav">
+        <button onclick="showPage('dashboard')">Dashboard</button>
+        <button onclick="showPage('patients')">Bệnh nhân</button>
+        <button onclick="showPage('doctors')">Bác sĩ</button>
+        <button onclick="showPage('rooms')">Phòng khám</button>
+        <button onclick="showPage('appointments')">Lịch hẹn</button>
+        <button onclick="showPage('medicalrecords')">Hồ sơ khám</button>
+        <button onclick="showPage('prescriptions')">Đơn thuốc</button>
+        <button onclick="showPage('tests')">Xét nghiệm</button>
+        <button onclick="showPage('images')">Hình ảnh y khoa</button>
+    </nav>
+
+    <main id="content">
+        <!-- dynamic content injected here -->
+    </main>
+
+    <footer>
+        <small>FE tĩnh — gọi BE tại <span id="api-url"></span></small>
+    </footer>
+
+    <script src="../js/index.js"></script>
+</body>
+
+</html>
+
+
+<!-- <link rel="stylesheet" type="text/css" href="../css/index.css">
+<script src="../js/index.js"></script> -->

@@ -1,0 +1,157 @@
+:root {
+    --accent: #2b6cb0;
+    --muted: #666;
+    --bg: #f3f6fb;
+    --card: #fff;
+}
+
+* {
+    box-sizing: border-box
+}
+
+body {
+    margin: 0;
+    font-family: Segoe UI, Roboto, Arial;
+    background: var(--bg);
+    color: #222;
+}
+
+header {
+    background: var(--accent);
+    color: #fff;
+    padding: 12px 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+header h1 {
+    margin: 0;
+    font-size: 18px
+}
+
+#auth-area button {
+    margin-left: 8px;
+    padding: 6px 10px;
+    border-radius: 6px;
+    border: none;
+    cursor: pointer
+}
+
+#auth-area button#btn-login {
+    background: #fff;
+    color: var(--accent)
+}
+
+#auth-area button#btn-register {
+    background: #fff;
+    color: var(--accent)
+}
+
+#user-info {
+    display: flex;
+    gap: 8px;
+    align-items: center;
+}
+
+nav {
+    display: flex;
+    gap: 6px;
+    padding: 10px;
+    background: #fff;
+    border-bottom: 1px solid #e0e6ef;
+}
+
+nav button {
+    padding: 8px 12px;
+    border-radius: 6px;
+    border: 1px solid #ddd;
+    background: #fafafa;
+    cursor: pointer;
+}
+
+main#content {
+    padding: 18px;
+    min-height: 70vh;
+}
+
+.card {
+    background: var(--card);
+    border-radius: 8px;
+    padding: 14px;
+    box-shadow: 0 1px 3px rgba(0, 0, 0, 0.06);
+    margin-bottom: 16px;
+}
+
+.table {
+    width: 100%;
+    border-collapse: collapse;
+}
+
+.table th,
+.table td {
+    text-align: left;
+    padding: 8px;
+    border-bottom: 1px solid #eee;
+}
+
+.controls {
+    display: flex;
+    gap: 8px;
+    flex-wrap: wrap;
+    margin-bottom: 12px
+}
+
+.btn {
+    padding: 6px 10px;
+    border-radius: 6px;
+    border: 1px solid #ddd;
+    background: #fff;
+    cursor: pointer
+}
+
+.btn.primary {
+    background: var(--accent);
+    color: #fff;
+    border-color: var(--accent)
+}
+
+.form-row {
+    display: flex;
+    gap: 10px;
+    margin-bottom: 8px
+}
+
+.form-row input,
+.form-row select,
+.form-row textarea {
+    padding: 8px;
+    border-radius: 6px;
+    border: 1px solid #ddd;
+    flex: 1;
+}
+
+.small {
+    font-size: 13px;
+    color: var(--muted)
+}
+
+.footer-note {
+    font-size: 13px;
+    color: var(--muted);
+    margin-top: 8px
+}
+
+.badge {
+    background: #eee;
+    padding: 4px 8px;
+    border-radius: 999px;
+    font-size: 12px
+}
+
+.notice {
+    background: #fff6b3;
+    padding: 8px;
+    border-radius: 6px;
+    margin-bottom: 12px
+}

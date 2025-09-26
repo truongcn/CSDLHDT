@@ -39,3 +39,4 @@ C:\Users\TRUONGVY\Desktop\Hospital\BE_Hospital\BE_Hospital\obj\Debug\net8.0\refi
 C:\Users\TRUONGVY\Desktop\Hospital\BE_Hospital\BE_Hospital\obj\Debug\net8.0\BE_Hospital.pdb
 C:\Users\TRUONGVY\Desktop\Hospital\BE_Hospital\BE_Hospital\obj\Debug\net8.0\BE_Hospital.genruntimeconfig.cache
 C:\Users\TRUONGVY\Desktop\Hospital\BE_Hospital\BE_Hospital\obj\Debug\net8.0\ref\BE_Hospital.dll
+C:\Users\TRUONGVY\Desktop\Hospital\BE_Hospital\BE_Hospital\obj\Debug\net8.0\BE_Hospital.sourcelink.json
