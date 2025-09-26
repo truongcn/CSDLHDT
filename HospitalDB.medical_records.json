@@ -1,0 +1,15 @@
+[{
+  "_id": {
+    "$oid": "68d57d16557d211abf74251a"
+  },
+  "appointmentId": "",
+  "patientId": "68d56493bb2306db55594eb8",
+  "doctorId": "68d56489bb2306db55594eb5",
+  "visitDate": {
+    "$date": "2025-12-22T16:55:00.000Z"
+  },
+  "symptoms": "ho",
+  "diagnosis": "sót",
+  "notes": "gà",
+  "roomId": ""
+}]

@@ -1,0 +1,36 @@
+[{
+  "_id": {
+    "$oid": "68d56493bb2306db55594eb8"
+  },
+  "name": "Le Van C",
+  "dob": {
+    "$date": "1990-05-15T00:00:00.000Z"
+  },
+  "gender": "Male",
+  "address": "Hà Nội",
+  "phone": "0987654321"
+},
+{
+  "_id": {
+    "$oid": "68d56493bb2306db55594eb9"
+  },
+  "name": "Pham Thi D",
+  "dob": {
+    "$date": "1985-12-20T00:00:00.000Z"
+  },
+  "gender": "Female",
+  "address": "TP. HCM",
+  "phone": "0971234567"
+},
+{
+  "_id": {
+    "$oid": "68d57ceb557d211abf742519"
+  },
+  "name": "aaaa",
+  "dob": {
+    "$date": "2000-02-23T00:00:00.000Z"
+  },
+  "gender": "Male",
+  "address": "ha nam",
+  "phone": "0967686866"
+}]

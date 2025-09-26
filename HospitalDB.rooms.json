@@ -1,0 +1,16 @@
+[{
+  "_id": {
+    "$oid": "68d5649bbb2306db55594ebc"
+  },
+  "roomNumber": "101",
+  "type": "General",
+  "status": "Available"
+},
+{
+  "_id": {
+    "$oid": "68d5649bbb2306db55594ebd"
+  },
+  "roomNumber": "202",
+  "type": "ICU",
+  "status": "Occupied"
+}]

@@ -1,0 +1,18 @@
+[{
+  "_id": {
+    "$oid": "68d56489bb2306db55594eb4"
+  },
+  "name": "Nguyen Van A",
+  "specialty": "Nội tổng quát",
+  "degree": "BSCKII",
+  "phone": "0901234567"
+},
+{
+  "_id": {
+    "$oid": "68d56489bb2306db55594eb5"
+  },
+  "name": "Tran Thi B",
+  "specialty": "Tim mạch",
+  "degree": "ThS",
+  "phone": "0912345678"
+}]
